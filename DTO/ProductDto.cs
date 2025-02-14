@@ -13,8 +13,5 @@ namespace DTO
         public string Place { get; set; }
         public int Price { get; set; }
     }
-    public class ProductResponseDto: ProductDto
-    {
-        public int Id { get; set; }
-    }
+   
 }

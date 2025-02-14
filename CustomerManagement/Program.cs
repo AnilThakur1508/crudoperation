@@ -1,9 +1,10 @@
-using CustomerManagement;
+using CustomerManagement.Mapping;
 using DataAccessLayer.Data;
 using DataAccessLayer.Repository;
 using Implementation.Implementation;
-using Implementation.Implementation.Productservice;
 using Microsoft.EntityFrameworkCore;
+using Services.Implementation;
+using Services.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,6 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IProductService, ProductService>();
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins", policy =>

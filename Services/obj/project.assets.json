@@ -1631,6 +1631,23 @@
           }
         }
       },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.AspNetCore.Cors": "2.3.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.Extensions.Configuration": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
       "DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4335,6 +4352,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
     "DTO/1.0.0": {
       "type": "project",
       "path": "../DTO/DTO.csproj",
@@ -4345,6 +4367,7 @@
     "net8.0": [
       "AutoMapper >= 13.0.1",
       "DTO >= 1.0.0",
+      "DataAccessLayer >= 1.0.0",
       "Microsoft.AspNetCore.Cors >= 2.3.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
@@ -4360,11 +4383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\cuuuu\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\LENOVO\\source\\cuuuu\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\cuuuu\\Services\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4385,8 +4408,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\source\\cuuuu\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\cuuuu\\DTO\\DTO.csproj"
+            "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\DTO\\DTO.csproj"
             }
           }
         }

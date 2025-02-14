@@ -14,8 +14,5 @@ namespace DTO
         public string City { get; set; }
         public string Region { get; set; }
     }
-    //public class CustomerResponseDto:CustomerDto
-    //{
-    //    public int Id { get; set; }
-    //}
+   
 }

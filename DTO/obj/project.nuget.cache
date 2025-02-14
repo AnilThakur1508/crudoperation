@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rpMB6uVOAb0=",
+  "dgSpecHash": "3dRgVu6JNtU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\cuuuu\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Source\\Repos\\crudoperation\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Services.Data;
 using Microsoft.Extensions.Options;
 using AutoMapper;
+using DataAccessLayer.Entity;
 
 
 namespace DataAccessLayer.Data
