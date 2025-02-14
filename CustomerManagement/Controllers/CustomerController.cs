@@ -2,8 +2,7 @@
 using DataAccessLayer.Repository;
 using DTO;
 using Microsoft.AspNetCore.Mvc;
-using Services.Data;
-using Implementation.Implementation;
+using Services.Interface;
 
 namespace CustomerManagement.Controllers
 {

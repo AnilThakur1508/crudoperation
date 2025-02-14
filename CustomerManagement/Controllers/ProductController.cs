@@ -2,14 +2,12 @@
 using DataAccessLayer.Repository;
 using DTO;
 using Microsoft.AspNetCore.Mvc;
-using Services.Data;
-using Implementation.Implementation.Productservice;
-
+using Services.Interface;
 
 namespace CustomerManagement.Controllers
 {
-   
-        [ApiController]
+
+    [ApiController]
         [Route("api/[controller]")]
         public class ProductController : ControllerBase
         {
